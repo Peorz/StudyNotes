@@ -1,45 +1,45 @@
 # Git笔记
 
-* 在当前目录下初始化一个空的git仓库
-> git init  
+#### 在当前目录下初始化一个空的git仓库
+* `git init`
 
-* 设置全局用户名和邮箱
-> git config --global user.name "name"  
-> git config --global user.email "xxxxx@email.com"  
-> git config user.name *查看git用户名*  
->git config user.email *查看邮箱配置* 
+#### 设置全局用户名和邮箱
+* `git config --global user.name "name"` 
+* `git config --global user.email "xxxxx@email.com"`
+* `git config user.name` 查看git用户名
+* `git config user.email` 查看邮箱配置
 
-* 查看git配置
-> git config --list
+#### 查看git配置
+* `git config --list
 
-* 提交修改到暂存区
-> git add -A *提交全部修改。（git add -All）*  
-> git add -u *只提交修改，不提交新文件。（git add -update）*  
-> git add . *不提交删除文件*  
-> git add [filename] *提交指定文件*
+#### 提交修改到暂存区
+* `git add -A` 提交全部修改。（git add -All）
+* `git add -u` 只提交修改，不提交新文件。（git add -update
+* `git add .` 不提交删除文件
+* `git add [filename]` 提交指定文件
 
-* 查看暂存区
-> git status
+#### 查看暂存区
+* `git status`
 
-* 提交修改到本地仓库
-> git commit -m 'msg' *提交暂存区到本地仓库*  
-> git commit -a -m 'msg' *提交修改到本地仓库*
+#### 提交修改到本地仓库
+* `git commit -m 'msg'` 提交暂存区到本地仓库
+* `git commit -a -m 'msg'` 提交修改到本地仓库
 
-* 查看提交记录
-> git log
+#### 查看提交记录
+* `git log`
 
-* 添加远程仓库
-> git remote add [name] [url]
+#### 添加远程仓库
+* `git remote add [name] [url]`
 
-* 查看远程仓库信息
-> git remote show [name]
+#### 查看远程仓库信息
+* `git remote show [name]`
 
-* 远程仓库的删除和重命名
-> git remote rm [remote_name]
-> git remote rename [old_name] [new_name]
+#### 远程仓库的删除和重命名
+* `git remote rm [remote_name]`
+* `git remote rename [old_name] [new_name]`
 
-* 拉取远程仓库数据到本地
-> git pull [remote_name] [branch_name]
+#### 拉取远程仓库数据到本地
+* `git pull [remote_name] [branch_name]`
 
-* 提交本地仓库到远程仓库
-> git push [remote_name] [branch_name]
+#### 提交本地仓库到远程仓库
+* `git push [remote_name] [branch_name]`
