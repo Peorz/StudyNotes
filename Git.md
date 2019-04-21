@@ -10,7 +10,7 @@
 * `git config user.email` 查看邮箱配置
 
 #### 查看git配置
-* `git config --list
+* `git config --list`
 
 #### 提交修改到暂存区
 * `git add -A` 提交全部修改。（git add -All）
