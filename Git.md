@@ -14,12 +14,21 @@
 
 #### 提交修改到暂存区
 * `git add -A` 提交全部修改。（git add -All）
-* `git add -u` 只提交修改，不提交新文件。（git add -update
+* `git add -u` 只提交修改，不提交新文件。（git add -update)
 * `git add .` 不提交删除文件
 * `git add <filename>` 提交指定文件
 
 #### 查看暂存区
 * `git status`
+
+#### 修改最新提交的 commit message
+* `git commit --amend`
+
+#### 修改某个提交的 commit message
+* `git commit -i <commit id>` commit id 为要修改的目标 commit 的父亲 commit id
+
+#### 合并连续的commit
+* `git rebase -i <commit id>` commit id 为目标commit的父亲commit id
 
 #### 提交修改到本地仓库
 * `git commit -m 'msg'` 提交暂存区到本地仓库
